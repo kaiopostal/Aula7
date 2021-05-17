@@ -9,9 +9,13 @@ package com.mycompany.aula7;
  *
  * @author kaiop
  */
-public class Principal {
-    public static void main(String[] args) {
-        
+public class Calculo {
+
+    public void soma() {
+        System.out.println("Soma");
     }
-    
+
+    public void soma(int a, int b) {
+
+    }
 }
