@@ -5,6 +5,8 @@
  */
 package com.mycompany.aula7;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author kaiop
@@ -12,10 +14,17 @@ package com.mycompany.aula7;
 public class Calculo {
 
     public void soma() {
-        System.out.println("Soma");
+       int a = Integer.parseInt(JOptionPane.showInputDialog("Valor A"));
+       int b = Integer.parseInt(JOptionPane.showInputDialog("Valor B"));
+       int resultado = a+b;
+       JOptionPane.showMessageDialog(null, "O resultado é: " + resultado);
     }
 
-    public void soma(int a, int b) {
+    public int soma(int a, int b) {
+        return a+b;
 
+    }
+    public int soma(int a, int b, int c) {
+        return a+b+c;
     }
 }

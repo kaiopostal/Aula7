@@ -12,6 +12,12 @@ package com.mycompany.aula7;
 public class Principal {
     public static void main(String[] args) {
         
+        Calculo calc = new Calculo();
+        
+        calc.soma();
+        System.out.println(calc.soma(10, 56));
+        
+        System.out.println( calc.soma(98, 8, 88));
     }
     
 }
