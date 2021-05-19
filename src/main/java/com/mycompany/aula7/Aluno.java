@@ -41,11 +41,11 @@ public class Aluno {
         //ATV2
         for (int i = 0; i < nota.length; i++) {
             soma = nota[i];
-            media += nota[i];
-            media += media/5;
-            
+            media += nota[i] / 5;
+
         }
-            JOptionPane.showMessageDialog(null, "Voce recebeu a nota " + nota[5] + " em " + mate[5] + "\n" + " e sua media é: " + media);
+        result += mate[0] + ":" + nota[0] + "\n" + "A media é: " + media;
+        JOptionPane.showMessageDialog(null, result);
         //ATV3
     }
 
@@ -53,7 +53,7 @@ public class Aluno {
 
         String mate[] = {"matematica é nota 7", "Portugues nota 8", "Geografia nota 8", "Fisica nota 6", "Historia nota 10"};
         String[] materia = new String[5];
-        
+
         Scanner ler = new Scanner(System.in);
         JOptionPane.showMessageDialog(null, "Informe o codigo para a materia do qual você deseja saber a nota: " + "\n" + "Mat=0,Port=1,Geo=2,Fis=3,Hist=4 ");
         int cod = Integer.parseInt(JOptionPane.showInputDialog("Informe o codigo: "));
