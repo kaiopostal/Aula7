@@ -20,9 +20,13 @@ public class Principal {
 //        System.out.println( calc.soma(98, 8, 88));
 
 
-        Aluno a = new Aluno();
-        a.cadastrarAluno();
-
+        //Aluno a = new Aluno();
+      // a.cadastrarAluno();
+            
+         Aluno a = new Aluno();
+          //a.Atv1();
+          a.Atv3();
+          
 
     }
     
