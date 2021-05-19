@@ -44,7 +44,7 @@ public class Aluno {
             media += nota[i] / 5;
 
         }
-        result += mate[0] + " : " + nota[0] + "\n" + "A media é: " + media;
+        result += "A media é: " + media;
         JOptionPane.showMessageDialog(null, result);
         //ATV3
     }
