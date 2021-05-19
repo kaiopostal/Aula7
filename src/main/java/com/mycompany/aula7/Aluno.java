@@ -44,14 +44,14 @@ public class Aluno {
             media += nota[i] / 5;
 
         }
-        result += mate[0] + ":" + nota[0] + "\n" + "A media é: " + media;
+        result += mate[0] + " : " + nota[0] + "\n" + "A media é: " + media;
         JOptionPane.showMessageDialog(null, result);
         //ATV3
     }
 
     public void Atv3() {
 
-        String mate[] = {"matematica é nota 7", "Portugues nota 8", "Geografia nota 8", "Fisica nota 6", "Historia nota 10"};
+        String mate[] = {"Matematica nota 7", "Portugues nota 8", "Geografia nota 8", "Fisica nota 6", "Historia nota 10"};
         String[] materia = new String[5];
 
         Scanner ler = new Scanner(System.in);

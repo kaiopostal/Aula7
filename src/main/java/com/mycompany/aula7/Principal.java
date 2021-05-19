@@ -24,8 +24,8 @@ public class Principal {
       // a.cadastrarAluno();
             
          Aluno a = new Aluno();
-          a.Atv1();
-         // a.Atv3();
+          //a.Atv1();
+         a.Atv3();
           
 
     }
