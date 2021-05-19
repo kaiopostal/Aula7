@@ -41,10 +41,11 @@ public class Aluno {
         //ATV2
         for (int i = 0; i < nota.length; i++) {
             soma = nota[i];
-            media += nota[5] / 5.0;
-            JOptionPane.showMessageDialog(null, "Voce recebeu a nota " + nota[i] + " em " + mate[i] + "\n" + " e sua media é: " + media);
+            media += nota[i];
+            media += media/5;
+            
         }
-
+            JOptionPane.showMessageDialog(null, "Voce recebeu a nota " + nota[5] + " em " + mate[5] + "\n" + " e sua media é: " + media);
         //ATV3
     }
 
